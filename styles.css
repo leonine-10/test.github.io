@@ -1,0 +1,113 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header.left-aligned {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    clear: both;
+}
+
+/* Flight Booking Form */
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Add some spacing between the logo and text */
+}
